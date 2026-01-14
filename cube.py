@@ -1,3 +1,5 @@
-num = 2 
-cube = num ** 3 
-print("Cube of the number:", cube) 
+def cube(num): 
+   return num ** 3 
+if __name__ == "__main__": 
+   num = 2
+print("Cube:", cube(num))
