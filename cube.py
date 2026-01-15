@@ -1,5 +1,2 @@
-def cube(num): 
-   return num ** 3 
-if __name__ == "__main__": 
-   num = 2
-print("Cube:", cube(num))
+for i in range(1, 11): 
+   print(i, "Square:", i**2, "Cube:", i**3)
